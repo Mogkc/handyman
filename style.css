@@ -56,3 +56,28 @@ h1 {
       );
     border-image-slice: 40% fill;
 }
+
+.dropdown {
+    position: sticky;
+    display: inline-block;
+    bottom: 5px;
+    left: 5px;
+}
+
+.dropdown-button {
+    padding: 10px 10px;
+    background-color: green;
+    color:white;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    background-color: green;
+    color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
