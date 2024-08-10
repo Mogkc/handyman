@@ -11,12 +11,48 @@ h1 {
     background-size: contain;
 }
 
-.slide {
+.slideshow {
+    position: relative;
+}
+
+.slideshow img {
     width: 95%;
+    margin: auto;
     border: 50px solid transparent;
     border-image: url(wood_picture_frame.png) 12% round;
 }
 
-.slide-picture {
-    width: 100%;
+.slideshow button {
+    position: absolute;
+    top: 50%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#prev-slide {
+    left: 2%;
+}
+
+#next-slide {
+    right: 2%;
+}
+
+.slide-description {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    border: 10px solid;
+    border-image-source:
+      linear-gradient(
+        to bottom right,
+        transparent 20%,
+        grey   20%,
+        grey   80%,
+        transparent 80%
+      );
+    border-image-slice: 40% fill;
 }
