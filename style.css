@@ -12,7 +12,11 @@ h1 {
 }
 
 .slide {
+    width: 95%;
     border: 50px solid transparent;
-    padding: 15px;
-    border-image: url(wood_picture_frame.png) 15% round;
+    border-image: url(wood_picture_frame.png) 12% round;
+}
+
+.slide-picture {
+    width: 100%;
 }
