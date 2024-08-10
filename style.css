@@ -1,0 +1,5 @@
+.slide {
+    border: 50px solid transparent;
+    padding: 15px;
+    border-image: url(wood_picture_frame.png) 15% round;
+}
